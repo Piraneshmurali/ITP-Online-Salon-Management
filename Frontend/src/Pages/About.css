@@ -1,0 +1,75 @@
+.about-section {
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 90px;
+    background-color: white;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image-column {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-image {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .content-column {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4a5568;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #4b5563;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #1e40af;
+  }
+  

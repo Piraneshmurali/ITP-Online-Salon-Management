@@ -1,0 +1,31 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-name {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .product-price {
+    margin-top: 0.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  

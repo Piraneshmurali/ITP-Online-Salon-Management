@@ -1,0 +1,16 @@
+/* RatingComponent.css */
+
+.rating-container {
+    margin-top: 10px;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+  }
+  
+  .star.filled {
+    color: gold; /* or any other color you prefer for filled stars */
+  }
+  

@@ -1,0 +1,72 @@
+.services-container {
+    padding: 48px 0;
+    background-color: #fff;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .service-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .service-details {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .service-heading {
+    font-size: 1.5rem;
+    color: #4b5563;
+    margin-bottom: 10px;
+  }
+  
+  .service-title {
+    font-size: 2rem;
+    color: #4b5563;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #4b5563;
+    margin-bottom: 20px;
+  }
+  
+  .service-buttons {
+    display: flex;
+    gap: 10px; /* spacing between buttons */
+  }
+  
+  .view-packages-btn,
+  .book-online-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-packages-btn:hover,
+  .book-online-btn:hover {
+    background-color: #374151;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .service-image {
+    flex: 1;
+  }
+  
+  .service-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

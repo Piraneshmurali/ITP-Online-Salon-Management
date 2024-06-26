@@ -1,0 +1,212 @@
+.Pbtn {
+    margin-right: 10px;
+}
+.Pproduct-info{
+    margin-left: 30px;
+}
+.Pproduct-container {
+    background-color: white;
+}
+
+.Pproduct-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.Pproduct-image {
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 50%;
+    
+}
+
+.Pproduct-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: gray;
+}
+
+.pgbutton {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    float: right; /* Align Go Back button to the right */
+}
+
+.Pproduct-info {
+    margin-top: 30px;
+    padding: 40px;
+}
+.Pname{
+    margin-right: 80px;
+    font-size: 50px;
+}
+.Pcategory {
+    margin-top: 40px;
+    font-size: 20px; /* Adjust category text size */
+}
+
+.Pquantity {
+    margin-top: 30px;
+    font-size: 20px; /* Adjust remaining quantity text size */
+}
+
+.Pprice {
+    margin-top: 30px;
+    font-size: 24px; /* Adjust price text size */
+    color: red; /* Price color */
+}
+
+.Pquantity-control {
+
+    margin-top: 10px; /* Add margin for quantity control */
+}
+
+.Pbutton{
+    margin-top: 20px;
+}
+
+.Pquant{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.Pquantity-control button {
+    background-color: #f0f0f0; /* Quantity control button background color */
+    border: none; /* Remove button border */
+    padding: 5px 10px; /* Adjust button padding */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 20px;
+}
+
+.Pquantity-control input {
+    width: 30px; /* Adjust input width */
+    margin: 0 5px; /* Add margin around input */
+    text-align: center; /* Center align text */
+    font-size: 15px;
+}
+
+.Pbtn-primary {
+    background-color: black;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+}
+.Pbtn-primary:hover{
+    background-color: #2dba4e;
+  font-weight: bold;
+}
+
+.Pbtn-success {
+    background-color: black;
+  color: white;
+  
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.Pbtn-success:hover{
+    background-color: #2dba4e;
+  font-weight: bold;
+}
+
+.Preview-section {
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.PRbtn{
+    background-color: black;
+    color: white;
+    
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 37px;
+    font-size: medium;
+}
+
+.PRbtn:hover{
+    background-color: #2dba4e;
+  font-weight: bold;
+}
+
+.Pquant button {
+    margin-left: 10px;
+    background-color: #efeeee;
+    color: black;
+    border-radius: 5px;
+}
+
+.Preview-section h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Pwrite-review h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Pwrite-review{
+    margin-left: 510px;
+}
+
+.Pwrite-review button{
+    margin-top: 20px;
+}
+
+.Rating{
+    background: transparent;
+    padding: 2%;
+    font-size: 1.1vw;
+    border: 2px solid rgba(191, 191, 191, 0.733);
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 1% 0;
+    
+}
+
+.Rating-no{
+    border-style: none;
+    font-size: 15px;
+}
+
+.Comment{
+    background: transparent;
+    padding: 2%;
+    font-size: 1.1vw;
+    border: 2px solid rgba(191, 191, 191, 0.733);
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 1% 0;
+}
+
+.Comment-no{
+    border-style: none;
+}
+

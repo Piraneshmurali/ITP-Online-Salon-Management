@@ -1,0 +1,110 @@
+
+
+/* ProductCard.css */
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.product-price {
+  margin: 5px 0;
+  color: red;
+  font-size: 23px;
+}
+
+.product-category {
+  margin: 0;
+  font-style: italic;
+}
+
+/* ProductCard.css */
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.product-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-name {
+  margin: 0;
+  padding: 3px;
+  font-size: 18px;
+}
+
+.product-price {
+  margin: 5px 0;
+  padding: 3px;
+}
+
+.product-category {
+  margin: 0;
+  padding: 3px;
+  color: #888;
+  font-style: italic;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-button,
+.view-feedback-button {
+  background-color: black;
+  color: white;
+  
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 150px;
+  height: 37px;
+  font-size: medium;
+}
+
+.buy-button:hover,
+.view-feedback-button:hover {
+  background-color: #2dba4e;
+  font-weight: bold;
+}
+
+.product-link {
+  text-decoration: none;
+  color: black;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 10px 0 rgb(35, 218, 35); /* Change the shadow color on hover */
+}
+
+
